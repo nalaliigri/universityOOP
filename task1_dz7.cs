@@ -38,7 +38,7 @@ namespace AbstractFactory
                 Console.WriteLine("Mercedes");
             }
         }
-       
+
         // AbstractProductB
         abstract class Engine
         {
