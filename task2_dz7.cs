@@ -52,7 +52,7 @@ namespace Builder
         {
             public override void BuildDough() { pizza.SetDough("panbaked"); }
             public override void BuildSauce() { pizza.SetSauce("hot"); }
-            public override void BuildTopping() { pizza.SetTopping("pepparoni+salami");}
+            public override void BuildTopping() { pizza.SetTopping("pepparoni+salami"); }
         }
         /** "Director" */
         class Waiter
@@ -83,7 +83,7 @@ namespace Builder
                 waiter.SetPizzaBuilder(hawaiianPizzaBuilder);
                 waiter.ConstructPizza();
                 Pizza pizza1 = waiter.GetPizza();
-                Console.WriteLine("\nHawaiian pizza");
+                Console.WriteLine("Hawaiian pizza");
                 pizza1.Info();
                 waiter.SetPizzaBuilder(spicyPizzaBuilder);
                 waiter.ConstructPizza();
