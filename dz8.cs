@@ -51,6 +51,8 @@ class PrintManager
     В даному коді також порушено принцип єдиного обов’язку (The Single Responsibility Principle).
     Виправимо це:)
  */
+
+ using System;
  
  class Email
  {
@@ -150,7 +152,7 @@ public class Square:Shape
 
 
 
-// Завдання 4.
+// Завдання 4. Порушено принцип розділення інтерфейсу (ISP).
 using System;
 
 class Program{
